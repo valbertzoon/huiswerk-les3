@@ -1,1 +1,57 @@
 /*Schrijf hier jouw CSS*/
+
+
+/*---------------parent container------------*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*----------article/aside/nav-------------*/
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+
+/*------------child containers-------------*/
+.header {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100px;
+}
+
+.nav {
+    order: 3; /*default=2*/
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.article {
+    order: 1; /*default=1*/
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 3;
+    flex-shrink: 1;
+
+}
+.aside {
+    order: 2; /*default=3*/
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100px;
+}
