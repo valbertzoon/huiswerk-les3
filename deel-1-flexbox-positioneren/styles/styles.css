@@ -1,1 +1,81 @@
 /*Schrijf hier jouw CSS*/
+
+/*-----------opdracht.1-------------*/
+.opdracht-1 {
+    display: flex;
+}
+
+.opdracht-1 ul {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+
+/*-----------opdracht.2--------------*/
+.opdracht-2 ul {
+    flex-direction: row;
+    display: flex;
+}
+
+.opdracht-2 li {
+    flex-basis: 300px;
+}
+
+/*-------------opdracht.3-------------*/
+
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-3 li {
+    align-self: start;
+}
+
+.opdracht-3 li + li {
+    align-self: center;
+}
+
+.opdracht-3 li + li + li {
+    align-self: end;
+}
+
+/*------------opdracht.4--------------*/
+.opdracht-4 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+/*------------opdracht.5--------------*/
+
+
+.opdracht-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.opdracht-5 .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opdracht-5 .list:nth-of-type(1) {
+    align-items: flex-start;
+}
+
+.opdracht-5 .list:nth-of-type(2) {
+    align-items: center;
+}
+
+.opdracht-5 .list:nth-of-type(3) {
+    align-items: flex-end;
+}
+

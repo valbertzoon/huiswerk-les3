@@ -34,8 +34,8 @@ h3 {
     height: 200px;
 }
 
-.opdracht-3 .flex-container,
-.opdracht-5 .flex-container {
+.opdracht-3 ul,
+.opdracht-5 ul {
     min-height: 100%;
 }
 
